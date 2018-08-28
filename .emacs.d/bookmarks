@@ -1,0 +1,30 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("evtest.c"
+ (filename . "~/src/csu.linux/test/evtest.c")
+ (front-context-string . "		for (i = 0; i ")
+ (rear-context-string . "	return 1;\n		}\n\n")
+ (position . 14159))
+("external-linaro-toolchain.bb"
+ (filename . "~/ti-sdk-am335x-triton/oe/oe-layersetup/sources/meta-linaro/meta-linaro-toolchain/recipes-devtools/external-linaro-toolchain/external-linaro-toolchain.bb")
+ (front-context-string . "${includedir}/c+")
+ (rear-context-string . "dc++-dev = \"\\\n  ")
+ (position . 13680))
+("sc16is7xx.c"
+ (filename . "~/ti-sdk-am335x-triton/board-support/ti-linux-kernel-4.1.y/drivers/tty/serial/sc16is7xx.c")
+ (front-context-string . "xx_handle_rx(por")
+ (rear-context-string . "len)\n				sc16is7")
+ (position . 21479))
+("base.c"
+ (filename . "~/ti-sdk-am335x-triton/board-support/ti-linux-kernel-4.1.y/drivers/of/base.c")
+ (front-context-string . "t find phandle\\n")
+ (rear-context-string . "rr(\"%s: could no")
+ (position . 42485))
+("phy.c"
+ (filename . "~/ti-sdk-am335x-evm-07.00.00.00/board-support/ti-u-boot/drivers/net/phy/phy.c")
+ (front-context-string . "(bus, 1 << addr,")
+ (rear-context-string . "phy_find_by_mask")
+ (position . 18796))
+)

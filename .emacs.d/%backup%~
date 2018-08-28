@@ -1,0 +1,37 @@
+
+
+<panel title="SPI D0-DI Data direction" subtitle="2016-Q1">
+Reference: [[http://e2e.ti.com/support/arm/sitara_arm/f/791/t/407507]]
+
+由於 SPI 模組的資料輸出入 pin 腳，D0、D1，可以被彈性的定義。沒有使用上的限制，所以在 DTS 內要多加一行的描述來定義 pin 腳上資料的方向。
+      ti,pindir-d0-out-d1-in;
+
+關於 SPI DTS 的屬性，在 kernel document 中並沒有描述，要如何知道 driver 本身支援那些屬性？最簡單的方法是直接查閱 driver 的 source code。
+{{:triton:fdt:spi-dts-d0-d1.png|}}
+</panel>
+
+<file>
+spi0_pins: pinmux_spi0_pins {
+pinctrl-single,pins = <
+		    0x150 (PIN_OUTPUT | MUX_MODE0) /* spi0_clk.spi0_clk */
+		    0x154 (PIN_OUTPUT | MUX_MODE0) /* spi0_d0.spi0_d0 */
+		    0x158 (PIN_INPUT_PULLUP | MUX_MODE0) /* spi0_d1.spi0_d1 */
+		    0x15C (PIN_OUTPUT | MUX_MODE0) /* spi0_cs0.spi0_cs0 */
+		    >;
+};
+
+&spi0 {
+      compatible = "ti,omap4-mcspi";
+      pinctrl-names = "default";
+      pinctrl-0 = <&spi0_pins>;
+      ti,spi-num-cs = <1>;
+      ti,pindir-d0-out-d1-in;
+      status = "okay";
+
+      spidev@0 {
+      	       compatible = "spidev";
+	       spi-max-frequency = <48000000>;
+      	       reg = <0>;
+      };
+};
+</file>

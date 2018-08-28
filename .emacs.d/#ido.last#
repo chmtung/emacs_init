@@ -1,0 +1,79 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/" . "max/")
+ ("/" . "home/")
+ ("/home/max/src/web-ipv6/3rd-party/freeradius-client-1.1.7/" . "src/")
+ ("/home/max/src/web-ipv6/3rd-party/" . "freeradius-client-1.1.7/")
+ ("/home/max/src/web-ipv6/" . "3rd-party/")
+ ("/home/max/src/" . "web-ipv6/")
+ ("/etc/" . "init.d/")
+ ("/home/max/src/web-ipv6/3rd-party/freeradius-client-1.1.7/lib/" . ".libs/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/max/"
+ "/etc/init.d/"
+ "/etc/init/"
+ "/etc/"
+ "/home/max/src/web-ipv6/3rd-party/freeradius-client-1.1.7/src/"
+ "/home/max/src/web-ipv6/3rd-party/freeradius-client-1.1.7/"
+ "/etc/freeradius/"
+ "/home/max/src/web-ipv6/3rd-party/freeradius-client-1.1.7/login.radius/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "mount"
+ "mountall.sh"
+ "rc-sysinit.conf"
+ "fstab"
+ "radexample"
+ "README.radexample"
+ "radiusd.conf"
+ "wgetrc"
+ "configure"
+ "Makefile.am"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/max/" (22794 32022 246657 348000) "Linux-locking-technique-1.pdf" "ti-processor-sdk-linux-am335x-evm-02.00.01.07/" "yocto/" "Public/" "Linux-locking-technique-3.pdf" ".gitconfig" "tmp/" ".wgetrc" ".bashrc" "boshiamy-gcin/" "examples.desktop" ".dbus/" "Desktop/" "src/" "go1.6.linux-amd64.tar.gz" ".Xauthority" ".mozilla/" "ubuntu-14.04.4-server-amd64.iso" ".emacs" ".gcin/" ".xsession-errors" ".rnd" "alacritty/" ".wget-hsts" "ti/" "ti-processor-sdk-linux-am335x-evm-02.00.02.11-Linux-x86-Install.bin" "shell-script/" ".cargo/" ".config/" ".ICEauthority" ".compiz/" "mount~" "ti-sdk-am335-triton/" ".gconf/" ".profile" "Linux-locking-technique-2.pdf" "VirtualBox VMs/" ".tgdb/" ".dmrc" ".wgetrc-bak" ".wgetrc-bak~" "Pictures/" ".ssh/" "Videos/" ".python-history" "../" "TI_pinmux/" ".xsession-errors.old" ".multirust/" "triton/" ".profile~" ".gvfs/" ".xinputrc" ".wgetrc~" "emacs/" ".thunderbird/" "./" "ti-processor-sdk-linux-am335x-evm-02.00.01.07-Linux-x86-Install.bin" "script/" "remote/" ".cgdb/" ".bashrc~" ".cache/" ".gnupg/" ".pki/" "Music/" ".sudo_as_admin_successful" "mount" "Downloads/" "ti-processor-sdk-linux-am335x-evm-02.00.02.11/" "Documents/" ".emacs~" ".bash_history" ".pam_environment" ".bash_logout" ".emacs.d/" "Templates/" ".rustup/" ".local/" ".lesshst")
+
+ ("/home/max/src/web-ipv6/3rd-party/freeradius-client-1.1.7/login.radius/" (22784 20800 9386 106000) "README" "Makefile.am" "Makefile.in" "login.radius" "../" "./" "Makefile" "migs/")
+
+ ("/etc/freeradius/" (22785 47538 350793 211000) "preproxy_users" "ldap.attrmap" "attrs.accounting_response" "sql.conf" "attrs.access_challenge" "sqlippool.conf" "hints" "eap.conf" "templates.conf" "huntgroups" "clients.conf" "experimental.conf" "acct_users" "proxy.conf" "../" "radiusd.conf~" "certs/" "users" "modules/" "dictionary" "attrs" "sites-available/" "sites-enabled/" "./" "policy.conf" "policy.txt" "attrs.pre-proxy" "radiusd.conf" "attrs.access_reject")
+
+ ("/etc/init/" (22791 59125 822124 309000) "mountnfs-bootclean.sh.conf" "ureadahead.conf" "mtab.sh.conf" "checkfs.sh.conf" "checkroot-bootclean.sh.conf" "acpid.conf" "mounted-tmp.conf" "whoopsie.conf" "failsafe.conf" "failsafe-x.conf" "mountnfs.sh.conf" "mounted-proc.conf" "mountall.conf" "udevmonitor.conf" "alsa-utils.conf" "rcS.conf" "setvtrgb.conf" "tty3.conf" "hwclock.conf" "resolvconf.conf" "apparmor.conf" "passwd.conf" "anacron.conf" "upstart-file-bridge.conf" "rfkill-restore.conf" "mounted-dev.conf" "cron.conf" "freeradius.conf" "tty2.conf" "tty1.conf" "networking.conf" "tty6.conf" "procps.conf" "mountall-bootclean.sh.conf" "usb-modeswitch-upstart.conf" "console-setup.conf" "gpu-manager.conf" "udevtrigger.conf" "apport.conf" "shutdown.conf" "procps-instance.conf" "mounted-debugfs.conf" "upstart-socket-bridge.conf" "bluetooth.conf" "mountdevsubfs.sh.conf" "xinetd.conf" "network-manager.conf" "irqbalance.conf" "ufw.conf" "hostname.sh.conf" "cups-browsed.conf" "../" "udev.conf" "avahi-cups-reload.conf" "mountall.sh.conf" "mountall-reboot.conf" "lightdm.conf" "dbus.conf" "hostname.conf" "network-interface.conf" "mountall-shell.conf" "container-detect.conf" "ureadahead-other.conf" "hwclock-save.conf" "control-alt-delete.conf" "console.conf" "checkroot.sh.conf" "./" "console-font.conf" "mounted-var.conf" "rfkill-store.conf" "rsyslog.conf" "rc.conf" "avahi-daemon.conf" "network-interface-security.conf" "kmod.conf" "wait-for-state.conf" "network-interface-container.conf" "upstart-udev-bridge.conf" "flush-early-job-log.conf" "mountkernfs.sh.conf" "bootmisc.sh.conf" "friendly-recovery.conf" "tty4.conf" "mounted-run.conf" "mountall-net.conf" "hwclock.sh.conf" "rc-sysinit.conf" "tty5.conf" "thermald.conf")
+
+ ("/etc/init.d/" (22791 59135 186238 447000) "README" "avahi-daemon" "plymouth-log" "bootmisc.sh" "mountnfs-bootclean.sh" "lighttpd" "keyboard-setup.dpkg-bak" "apport" "udev" "rcS" "console-setup" "unattended-upgrades" "mountall-bootclean.sh" "hostname.sh" "bluetooth" "hwclock.sh" "checkroot.sh" "saned" "rc" "anacron" "rc.local" "x11-common" "apparmor" "thermald" "umountfs" "cups-browsed" "mountdevsubfs.sh" "speech-dispatcher" "kerneloops" "kmod" ".depend.stop" "killprocs" "whoopsie" "reboot" "mountremote.sh~" "rsync" "irqbalance" "openafs-client" "umountroot" "xinetd" "ondemand" "lightdm" "ntp" "uuidd" "../" "cron" "brltty" "acpid" ".depend.start" "single" "networking" "network-manager" "skeleton" "ufw" "resolvconf" "mountnfs.sh" "sendsigs" "urandom" "./" "mountall.sh" "halt" "virtualbox" "procps" "grub-common" "alsa-utils" "umountnfs.sh" "mountkernfs.sh" "dns-clean" "freeradius" "checkfs.sh" "plymouth" "pppd-dns" ".depend.boot" "rsyslog" "dbus" "mountremote.sh" "checkroot-bootclean.sh")
+
+ ("/etc/ImageMagick-6/" (22757 38247 197962 315000) "policy.xml" "thresholds.xml" "magic.xml" "log.xml" "type-windows.xml" "delegates.xml" "type.xml" "quantization-table.xml" "../" "colors.xml" "type-ghostscript.xml" "./" "type-dejavu.xml" "mime.xml" "coder.xml")
+
+ ("/etc/" (22793 45600 290887 548000) "doc-base/" "request-key.conf" "ld.so.cache" "ghostscript/" "bonobo-activation/" "sane.d/" "sudoers.d/" "securetty" "kbd/" "fuse.conf" "ca-certificates.conf" "gai.conf" "gamin/" "updatedb.conf" "ca-certificates/" "opt/" "init/" "magic.mime" "apparmor.d/" "request-key.d/" "ppp/" "kernel-img.conf" "libnl-3/" "passwd" "hostname" "lintianrc" "binfmt.d/" "debconf.conf" ".pwd.lock" "gss/" "network/" "dkms/" "thunderbird/" "lighttpd/" "sysctl.conf" "cron.hourly/" "gshadow" "sysctl.d/" "subuid-" "dictionaries-common/" "emacs24/" "vim/" "apport/" "group-" "manpath.config" "os-release" "shadow-" "udev/" "lsb-release" "aptdaemon/" "ucf.conf" "subgid" "console-setup/" "usb_modeswitch.conf" "rpc" "X11/" "insserv.conf.d/" "libao.conf" "ifplugd/" "drirc" "sysctl.conf~" "locale.gen~" "shadow" "bluetooth/" "pam.conf" "cracklib/" "dhcp/" "fwupd.conf" "apache2/" "appstream.conf" "brltty.conf" "mke2fs.conf" "kernel/" "shells" "vtrgb" "issue" "rc1.d/" "cron.weekly/" "texmf/" "hosts.deny" "group~" "ssh/" "usb_modeswitch.d/" "lynx/" "locale.alias" "newt/" "sound/" ".java/" "adduser.conf" "rc.local~" "gdb/" "rc.local" "hdparm.conf" "firefox/" "mailcap.order" "resolv.conf" "apparmor/" "wireshark/" "thermald/" "udisks2/" "fstab" "acpi/" "legal" "compizconfig/" "pki/" "gnome-vfs-2.0/" "selinux/" "profile.d/" "iftab" "apt/" "xinetd.d/" "rc0.d/" "insserv/" "modprobe.d/" "gtk-2.0/" "speech-dispatcher/" "init.d/" "zsh_command_not_found" "default/" "apm/" "skel/" "mtools.conf" "ImageMagick-6/" "pam.d/" "sgml/" "libreoffice/" "signon-ui/" "logrotate.conf" "modules-load.d/" "issue.net" "update-motd.d/" "NetworkManager/" "subuid" "ssl/" "terminfo/" "environment" "initramfs-tools/" "xinetd.conf" "popularity-contest.conf" "calendar/" "libaudit.conf" "smi.conf" "rc6.d/" "lightdm/" "rc2.d/" "polkit-1/" "alternatives/" "gconf/" "bindresvport.blacklist" "pnm2ppa.conf" "rc4.d/" "mime.types" "rsyslog.d/" "dconf/" "cups/" "groff/" "grub.d/" "UPower/" "bash_completion" "systemd/" "locale.gen" "wgetrc" "brltty/" "nanorc" "ntp.conf" "localtime" "hosts.allow" "gtk-3.0/" "gnome-app-install/" "ld.so.conf.d/" "machine-id" "fonts/" "ufw/" "cron.d/" "modules" "iftab~" "papersize" "cron.daily/" "group" "resolvconf/" "wgetrc~" "profile" "update-manager/" "dnsmasq.d/" "guest-session/" "depmod.d/" "emacs/" "gnome/" "brlapi.key" "cron.monthly/" "dbus-1/" "sensors.d/" "networks" "timezone" "rc5.d/" "security/" "services" "logcheck/" "subgid-" "avahi/" "inputrc" "mtab" "rmt" "samba/" "pcmcia/" "login.defs" "openafs/" "upstart-xsessions" "presage.xml" "gshadow-" "kerneloops.conf" "ltrace.conf" "logrotate.d/" "ldap/" "rsyslog.conf" "chatscripts/" "pulse/" "magic" "bash_completion.d/" "dpkg/" "ld.so.conf" "anacrontab" "libpaper.d/" "passwd-" "rc3.d/" "iproute2/" "pm/" "signond.conf" "debian_version" "mailcap" "python3/" "tmpfiles.d/" "hosts" "python2.7/" "nsswitch.conf" "apg.conf" "freeradius/" "bash.bashrc" "hp/" "event.d/" "host.conf" "crontab" "at-spi2/" "perl/" "update-notifier/" "xml/" "deluser.conf" "wpa_supplicant/" "protocols" "python/" "insserv.conf" "rcS.d/" "xdg/" "python3.5/" "sudoers" "sensors3.conf" "../" "./")
+
+ ("/" (22793 45556 594354 936000) "adb:" "ftp:" "dav:" "davs:" "obex:" "sftp:" "synce:" "rcp:" "remcp:" "scp:" "scpx:" "rsync:" "rsh:" "remsh:" "ssh:" "sshx:" "telnet:" "nc:" "su:" "sudo:" "ksu:" "krlogin:" "plink:" "plinkx:" "pscp:" "psftp:" "fcp:" "smb:" "mnt/" "tmp/" "opt/" "lib32/" "run/" "vmlinuz.old" "initrd.img.old" "initrd.img" "root/" "usr/" "media/" "libx32/" "boot/" "proc/" "var/" "../" "dev/" "home/" "cdrom/" "bin/" "sbin/" "./" "afs/" "tftpboot/" "sys/" "srv/" "lib/" "etc/" "lost+found/" "vmlinuz" "lib64/")
+
+ ("/home/max/src/web-ipv6/3rd-party/freeradius-client-1.1.7/doc/" (22784 20799 961385 399000) "README" "instop.html" "login.example" "Makefile.am" "Makefile.in" "ChangeLog" "../" "./" "release-method.txt" "Makefile")
+
+ ("/home/max/src/web-ipv6/3rd-party/freeradius-client-1.1.7/src/" (22786 41507 842336 286000) "radius.c" "local.o" "radexample" "radexample.c" "radacct.o" "Makefile.am" "radlogin.o" "Makefile.in" "radembedded.c" ".libs/" "radstatus.c" "radembedded" "local.c" "radstatus" "radlogin" "radstatus.o" ".deps/" "../" "radiusclient" "radembedded.o" "radiusclient.o" "./" "radexample.o" "radlogin.h" "radlogin.c" "radius.o" "radacct" "radiusclient.c" "Makefile" "radacct.c")
+
+ ("/home/max/src/web-ipv6/3rd-party/freeradius-client-1.1.7/" (22784 20800 493393 237000) "COPYRIGHT" "doc/" "configure.in" "mkinstalldirs" "stamp-h1" "depcomp" "README.radexample" "src/" "config.h" "config.status" "missing" "stamp-h.in" "Makefile.am" "Makefile.in" "login.radius/" "patches/" "config.sub" "release.mak" "debian/" "install-sh" "config.h.in" "aclocal.m4" "../" "config.guess" ".gitignore" "stamp-h" "libtool" "config.log" "configure" "README.rst" "./" ".travis.yml" "rpm/" "man/" "ltmain.sh" "include/" "Makefile" "lib/" "etc/" "BUGS")
+
+ ("/home/max/src/web-ipv6/3rd-party/" (22784 20674 223533 112000) "freeradius-client-1.1.7.tar.gz" "../" "freeradius-server/" "./" "freeradius-client-1.1.7/" "freeradius-client-lib/")
+
+ ("/home/max/src/web-ipv6/" (22784 17641 838748 510000) "3rd-party/" "../" "./")
+
+ ("/home/max/src/" (22785 45662 152005 958000) "openssl-1.0.1g.tar.gz" "ti-u-boot/" "web-ipv6/" "openssl-1.1.0e.tar.gz" "openssl-1.1.0e/" "icc-ctrlbox/" "orion/" "c11/" "FreeRTOSv9.0.0/" "../" "Go/" "./" "ti-linux-kernel-4.1.y/" "openssl-1.0.1g/" "FreeRTOSv9.0.0.zip")
+
+ ("/home/" (22303 22202 531379 44000) "../" "./" "max/")
+
+ ("/home/max/src/web-ipv6/3rd-party/freeradius-client-1.1.7/lib/.libs/" (22784 18487 323328 460000) "libfreeradius-client.a" "buildreq.o" "sendserver.o" "libfreeradius-client.so.2.0.0" "rc-md5.o" "../" "avpair.o" "ip_util.o" "libfreeradius-client.so" "clientid.o" "dict.o" "md5.o" "./" "libfreeradius-client.so.2" "libfreeradius-client.la" "libfreeradius-client.lai" "env.o" "config.o" "log.o" "util.o")
+
+ ("/home/max/src/web-ipv6/3rd-party/freeradius-client-1.1.7/lib/" (22784 18487 315328 341000) "ip_util.c" "env.lo" "buildreq.lo" "dict.c" "buildreq.o" "sendserver.o" "avpair.c" "avpair.lo" "dict.lo" "Makefile.am" "Makefile.in" ".libs/" "rc-md5.h" "rc-md5.o" "ip_util.lo" "options.h" "config.lo" "sendserver.c" "md5.c" "util.lo" ".deps/" "../" "avpair.o" "ip_util.o" "md5.h" "clientid.o" "dict.o" "config.c" "md5.o" "log.lo" "./" "env.c" "md5.lo" "util.c" "libfreeradius-client.la" "clientid.lo" "clientid.c" "env.o" "config.o" "sendserver.lo" "Makefile" "rc-md5.lo" "log.c" "rc-md5.c" "buildreq.c" "log.o" "util.o")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
